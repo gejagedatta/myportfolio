@@ -435,9 +435,9 @@ const App = () => {
       )}
 
       {/* Footer */}
-            <footer className="text-center text-slate-500 py-6 mt-10 border-t border-gray-200">
-        © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
-      </footer> 
+           <footer className="relative z-10 text-center text-slate-500 py-6 mt-10 border-t border-gray-200 bg-gray-50">
+  © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
+</footer>
 
       {/* Back to top button */}
       <button 

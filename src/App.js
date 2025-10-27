@@ -284,10 +284,14 @@ const App = () => {
             </div>
             <div>
               <div className="text-gray-700 mb-3 text-lg font-medium">For my work and education details, download or view my resume:</div>
-              <div className="space-x-3">
-                <a href={profile.resumeUrl} target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2 font-semibold rounded-full bg-gradient-to-r from-blue-500 to-cyan-400 text-white shadow transition-transform duration-150 hover:scale-105 hover:text-blue-100">View Resume</a>
-                <a href={profile.resumeUrl} download className="inline-block px-5 py-2 font-semibold rounded-full bg-blue-50 text-blue-700 border border-blue-300 hover:bg-blue-200 transition">Download Resume</a>
-              </div>
+              // <div className="space-x-3">
+              //   <a href={profile.resumeUrl} target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2 font-semibold rounded-full bg-gradient-to-r from-blue-500 to-cyan-400 text-white shadow transition-transform duration-150 hover:scale-105 hover:text-blue-100">View Resume</a>
+              //   <a href={profile.resumeUrl} download className="inline-block px-5 py-2 font-semibold rounded-full bg-blue-50 text-blue-700 border border-blue-300 hover:bg-blue-200 transition">Download Resume</a>
+              // </div>
+              <div className="flex flex-wrap gap-3">
+  <a href={profile.resumeUrl} target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2 font-semibold rounded-full bg-gradient-to-r from-blue-500 to-cyan-400 text-white shadow transition-transform duration-150 hover:scale-105 hover:text-blue-100">View Resume</a>
+  <a href={profile.resumeUrl} download className="inline-block px-5 py-2 font-semibold rounded-full bg-blue-50 text-blue-700 border border-blue-300 hover:bg-blue-200 transition">Download Resume</a>
+</div>
             </div>
           </div>
         </div>

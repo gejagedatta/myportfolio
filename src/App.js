@@ -435,22 +435,26 @@ const App = () => {
       )}
 
       {/* Footer */}
-           <footer className="relative z-10 text-center text-slate-500 py-6 mt-10 border-t border-gray-200 bg-gray-50">
-  © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
-</footer>
+         {/* Footer */}
+      <footer className="relative z-10 flex flex-col sm:flex-row items-center justify-between text-slate-500 py-6 mt-10 border-t border-gray-200 bg-gray-50 px-6 gap-4">
+        
+        {/* Back to top button (MOVED INSIDE) */}
+        <button 
+          className="h-12 w-12 flex-shrink-0 flex items-center justify-center rounded-full bg-blue-600 text-white shadow-lg hover:bg-blue-700 focus:outline-none"
+          onClick={scrollTop}
+          /* We remove the 'style' prop because the button is no longer hidden */
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+          </svg>
+        </button>
 
-      {/* Back to top button */}
-      {/* Back to top button */}
-     {/* Back to top button */}
-      <button 
-        className="fixed bottom-6 right-6 p-4 rounded-full bg-blue-600 text-white shadow-lg transition-opacity duration-300 hover:bg-blue-700 focus:outline-none"
-        onClick={scrollTop}
-        style={{ opacity: showScroll ? 1 : 0, transition: 'opacity 0.3s ease-in-out' }}
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
-        </svg>
-      </button>
+        {/* Footer Text */}
+        <span className="text-center sm:text-right">
+          © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
+        </span>
+        
+      </footer>
       
     </div>
   );

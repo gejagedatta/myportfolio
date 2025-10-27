@@ -441,9 +441,9 @@ const App = () => {
 
       {/* Back to top button */}
       {/* Back to top button */}
+     {/* Back to top button */}
       <button 
-        /* --- FIX: Added z-40 here --- */
-        className="fixed bottom-6 right-6 z-40 p-4 rounded-full bg-blue-600 text-white shadow-lg transition-opacity duration-300 hover:bg-blue-700 focus:outline-none"
+        className="fixed bottom-6 right-6 z-40 h-14 w-14 flex items-center justify-center rounded-full bg-blue-600 text-white shadow-lg transition-opacity duration-300 hover:bg-blue-700 focus:outline-none"
         onClick={scrollTop}
         style={{ opacity: showScroll ? 1 : 0, transition: 'opacity 0.3s ease-in-out' }}
       >

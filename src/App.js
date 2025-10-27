@@ -440,15 +440,17 @@ const App = () => {
 </footer>
 
       {/* Back to top button */}
-      <button 
-        className="fixed bottom-6 right-6 p-4 rounded-full bg-blue-600 text-white shadow-lg transition-opacity duration-300 hover:bg-blue-700 focus:outline-none"
-        onClick={scrollTop}
-        style={{ opacity: showScroll ? 1 : 0, transition: 'opacity 0.3s ease-in-out' }}
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
-        </svg>
-      </button>
+      {/* Back to top button */}
+      <button 
+        /* --- FIX: Added z-40 here --- */
+        className="fixed bottom-6 right-6 z-40 p-4 rounded-full bg-blue-600 text-white shadow-lg transition-opacity duration-300 hover:bg-blue-700 focus:outline-none"
+        onClick={scrollTop}
+        style={{ opacity: showScroll ? 1 : 0, transition: 'opacity 0.3s ease-in-out' }}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+      </button>
       
     </div>
   );

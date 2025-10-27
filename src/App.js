@@ -266,7 +266,7 @@ const App = () => {
           />
         </div>
         <h1 className="text-4xl font-extrabold text-gray-800 animate-fadeInUp">{profile.name}</h1>
-        <p className="mt-2 text-lg text-blue-700 tracking-wide animate-fadeInUp" style={{ animationDelay: '0.2s' }}>{profile.title}</p>
+        <p className="mt-2 px-4 text-center text-base md:text-lg text-blue-700 tracking-wide animate-fadeInUp" style={{ animationDelay: '0.2s' }}>{profile.title}</p>
 
         <div className="z-10 relative mx-auto max-w-lg mt-10 animate-fadeInUp" style={{ animationDelay: '0.4s' }}>
           <div className="shadow-xl rounded-2xl bg-white/80 ring-1 ring-blue-100 backdrop-blur-lg px-8 py-8 flex items-center gap-5 transition hover:scale-[1.01] animate-resumeIn">

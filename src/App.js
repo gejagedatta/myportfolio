@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'; 1234
+// import React, { useState, useEffect } from 'react'; 
 
 // Main App Component for the Professional Portfolio Website
 const App = () => {

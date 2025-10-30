@@ -1,4 +1,4 @@
-// import React, { useState, useEffect } from 'react'; 
+import React, { useState, useEffect } from 'react'; 
 
 // Main App Component for the Professional Portfolio Website
 const App = () => {
@@ -456,4 +456,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default ;

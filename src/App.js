@@ -432,7 +432,8 @@ const App = () => {
             </div>
           </div>
             <footer className="text-center text-slate-500 py-6 mt-10 border-t border-gray-200">
-        © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
+        // © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
+                  sdfghjsdfghj
       </footer>       
         </div>
       )}

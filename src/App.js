@@ -134,7 +134,7 @@ const App = () => {
       title: 'Data Analysis in Python: Using Pandas DataFrames (Coursera)',
       pdfUrl: '/pdf/Data Analysis in Python Coursera.pdf'
     },
-  
+ 
   ];
 
   return (
@@ -166,7 +166,7 @@ const App = () => {
         .animate-photoPop {
           animation: photoPop 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
         }
-        
+       
         /* Skills and projects card animation */
         @keyframes scaleIn {
             from { opacity: 0; transform: scale(0.9); }
@@ -212,7 +212,7 @@ const App = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/70 backdrop-blur-lg shadow-sm animate-fadeInUp">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <a href="#hero" className="text-2xl font-bold text-gray-800 tracking-wide hover:text-blue-600 transition duration-150">DG</a>
-          
+         
           {/* Mobile menu button */}
           <button onClick={toggleMobileMenu} className="md:hidden text-gray-600 hover:text-blue-600 transition duration-150 focus:outline-none">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -388,7 +388,7 @@ const App = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
                 <span>Email</span>
               </a>
-              <a href={`https://${profile.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition">
+              <a href={`https/${profile.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
                 <span>LinkedIn</span>
               </a>
@@ -401,12 +401,13 @@ const App = () => {
         </div>
         <br/>
         <br/>
-  
+ 
       </section>
-      
+     
  
        
       
+ 
       {/* PDF Viewer Modal */}
       {showPdfModal && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
@@ -434,12 +435,18 @@ const App = () => {
         </div>
       )}
 
-      {/* Footer */}
-         {/* Footer */}
-            <footer >
+      {/* =================================
+      |    *** UPDATED CODE HERE *** |
+      =================================
+      I replaced your unstyled footer with this one.
+      - `w-full`: Makes sure it spans the full width.
+      - `py-8`: Adds vertical padding (breathing room).
+      - `text-center`: Centers the text.
+      - `text-gray-600 text-sm`: Makes the text a bit smaller and gray, which is standard for footers.
+      */}
+      <footer className="w-full py-8 text-center text-gray-600 text-sm">
         © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
-      </footer>       
-     {/* Footer */}
+      </footer>
 
 
   {/* Back to top button */}
@@ -452,7 +459,7 @@ const App = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
         </svg>
       </button>
-        
+       
     </div>
   );
 };

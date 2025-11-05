@@ -431,15 +431,16 @@ const App = () => {
               ></iframe>
             </div>
           </div>
+            <footer className="text-center text-slate-500 py-6 mt-10 border-t border-gray-200">
+        © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
+      </footer>       
         </div>
       )}
 
       {/* Footer */}
          {/* Footer */}
      {/* Footer */}
-<footer className="text-center text-slate-500 py-6 mt-10 border-t border-gray-200">
-        © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
-      </footer> 
+
 
   {/* Back to top button */}
       <button 

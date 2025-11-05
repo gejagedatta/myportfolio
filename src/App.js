@@ -436,7 +436,7 @@ const App = () => {
 
       {/* Footer */}
          {/* Footer */}
-            <footer className="text-center text-slate-500 py-6 mt-10 border-t border-gray-200">
+            <footer >
         © {new Date().getFullYear()} Dattatray Gejage. All rights reserved.
       </footer>       
      {/* Footer */}

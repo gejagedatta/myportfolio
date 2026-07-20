@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 // Data Analyst | SQL Developer | Business Intelligence Analyst
 // ======================================================
 
-const App = () => {
+const App = () => { 
 
   // ==============================
   // State Management

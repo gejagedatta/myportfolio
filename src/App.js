@@ -588,7 +588,7 @@ const App = () => {
               <div className="pf-float" style={{ width: '100%', height: '100%', borderRadius: '18px', overflow: 'hidden', border: '1px solid var(--paper-line)', background: '#fff', boxShadow: '0 30px 60px -30px rgba(32,28,51,0.35)' }}>
                 
             <img
-              src="/img/datta.png"
+              src="/img/datta.jpg"
               alt="About Dattatrya"
               className="w-full h-full object-cover"
             />

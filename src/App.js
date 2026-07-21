@@ -357,7 +357,7 @@ const App = () => {
     name: 'Dattatrya Gejage',
     title: 'Data Analyst · SQL Developer · Business Intelligence Analyst',
     photoUrl: '/img/datta.jpg',
-    aboutMeImage: '/img/datta1.png',
+    aboutMeImage: '/img/datta.png',
     resumeUrl: '/pdf/Dattatrya_Gejage_Data_Analyst_Resume.pdf',
     aboutMe:
       'I am a B.Tech graduate in Artificial Intelligence & Data Science with practical experience in SQL, MySQL, Power BI, Python, Microsoft Excel, and Business Intelligence. I enjoy transforming raw business data into meaningful insights through ETL, data cleaning, data modeling, Power Query, and DAX. My Retail Intelligence Dashboard analyzes over 99K customer orders and ₹16.01 million in revenue using an end-to-end analytics workflow. I continuously strengthen my expertise in Data Analytics, Machine Learning, Deep Learning, and Generative AI by building practical projects focused on solving real business problems.',

@@ -423,7 +423,7 @@ const App = () => {
     { title: 'Generative AI for Data Scientists — IBM', pdfUrl: '/pdf/Coursera Gen AI Data Scientists.pdf' },
     { title: 'AI for Everyone — DeepLearning.AI', pdfUrl: '/pdf/Coursera AI.pdf' },
     { title: 'Microsoft Excel Beginner to Advanced', pdfUrl: '/pdf/ExcelCertificate.pdf' },
-    { title: 'Intermediate Python Programming', pdfUrl: '/pdf/Intermediate Python.pdf' },
+    { title: 'Intermediate Python Programming', pdfUrl: '/pdf/Python NumPy.pdf' },
     { title: 'Deep Learning — IIT Ropar (NPTEL)', pdfUrl: '/pdf/Deep Learning.pdf' },
     { title: 'Cyber Security Awareness — NIELIT', pdfUrl: '/pdf/NIELIT.pdf' }
   ];

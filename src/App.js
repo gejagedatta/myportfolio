@@ -592,7 +592,7 @@ const App = () => {
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = 'https://placehold.co/320x320/201C33/EDEAFB?text=DG';
+                    e.target.src = 'https://github.com/gejagedatta/myportfolio/blob/main/public/img/datta.jpg';
                   }}
                 />
               </div>

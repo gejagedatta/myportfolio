@@ -586,15 +586,25 @@ const App = () => {
           <Reveal>
             <div className="relative mx-auto" style={{ width: 320, height: 320 }}>
               <div className="pf-float" style={{ width: '100%', height: '100%', borderRadius: '18px', overflow: 'hidden', border: '1px solid var(--paper-line)', background: '#fff', boxShadow: '0 30px 60px -30px rgba(32,28,51,0.35)' }}>
-                <img
-                  src={profile.aboutMeImage}
-                  alt="About Dattatrya"
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = 'https://github.com/gejagedatta/myportfolio/blob/main/public/img/datta.jpg';
-                  }}
-                />
+                // <img
+                //   src={profile.aboutMeImage}
+                //   alt="About Dattatrya"
+                //   className="w-full h-full object-cover"
+                //   onError={(e) => {
+                //     e.target.onerror = null;
+                //     e.target.src = 'https://github.com/gejagedatta/myportfolio/blob/main/public/img/datta.jpg';
+                //   }}
+                // />
+                    <img
+  src={profile.aboutMeImage}
+  alt="About Dattatrya"
+  className="w-full h-full object-cover"
+  onError={(e) => {
+    e.target.onerror = null;
+    e.target.src =
+      "https://raw.githubusercontent.com/gejagedatta/myportfolio/main/public/img/datta.png";
+  }}
+/>
               </div>
               <div className="pf-mono absolute -bottom-4 -right-4 px-3 py-2 rounded-md text-xs" style={{ background: 'var(--ledger)', color: 'var(--mint)' }}>
                 row_1 / about_me
